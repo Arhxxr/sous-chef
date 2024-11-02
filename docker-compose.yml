@@ -1,0 +1,42 @@
+# sous-chef/docker-compose.yml
+
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: dockerfile  # Use Dockerfile for development
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # For file watching on some environments
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: dockerfile  # Use development Dockerfile
+    volumes:
+      - ./backend:/app
+      - /app/venv
+    ports:
+      - "5050:5050"
+    environment:
+      - FLASK_ENV=development
+      - OPENAI_API_KEY=your_openai_api_key_here  # Consider using a .env file
+    command: flask run --host=0.0.0.0 --port=5050
+
+  # Optional: Database service (e.g., PostgreSQL)
+  # db:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_USER: user
+  #     POSTGRES_PASSWORD: password
+  #     POSTGRES_DB: sous_chef_db
+  #   ports:
+  #     - "5432:5432"
