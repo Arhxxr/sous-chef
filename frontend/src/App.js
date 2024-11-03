@@ -38,7 +38,7 @@ export const Frame = () => {
                 <div className="text-wrapper-2">HI!</div>
 
                 <p className="THIS-IS-YOUR-SOUS">
-                  HI! I AM YOUR <br />
+                  I AM YOUR <br />
                   SOUS CHEF
                 </p>
               </div>

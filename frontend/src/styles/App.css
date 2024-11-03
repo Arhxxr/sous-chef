@@ -156,7 +156,7 @@
 
 .frame .text-wrapper-2 {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular";
+  font-family: "Press Start 2P", cursive;
   font-size: 64px;
   font-weight: 400;
   left: 4px;
@@ -169,7 +169,7 @@
 
 .frame .THIS-IS-YOUR-SOUS {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular";
+  font-family: "Press Start 2P", cursive;
   font-size: 36px;
   font-weight: 400;
   left: 0;
@@ -182,7 +182,7 @@
 
 .frame .p {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular";
+  font-family: "Press Start 2P", cursive;
   font-size: 36px;
   font-weight: 400;
   left: 0;
@@ -219,7 +219,7 @@
 
 .frame .text-wrapper-3 {
   color: #5e5e5e;
-  font-family: "Press Start 2P-Regular";
+  font-family: "Press Start 2P", cursive;
   font-size: 48px;
   font-weight: 400;
   left: 148px;

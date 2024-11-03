@@ -12,8 +12,10 @@
   left: 10px;
   position: absolute;
   top: 10px;
-  width: 1920px;
+  width: 100%; /* Set width to 100% */
+  max-width: 1920px; /* Optional max width for larger screens */
 }
+
 
 .frame .group {
   background-image: url(./rectangle-5.png);
@@ -29,7 +31,7 @@
   left: 0;
   position: absolute;
   top: 930px;
-  width: 1920px;
+  width: 100%;
 }
 
 .frame .div-wrapper {
@@ -37,7 +39,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 100%;
 }
 
 .frame .div {
@@ -46,11 +48,12 @@
 }
 
 .frame .group-2 {
+  display: flex;
   height: 53px;
   left: 56px;
   position: relative;
   top: 27px;
-  width: 1810px;
+  width: 94%;
 }
 
 .frame .group-3 {
@@ -90,21 +93,21 @@
 
 .frame .text-wrapper {
   color: #ffffff;
-  font-family: "Minecraft-Medium", Helvetica;
+  font-family: "Press Start 2P";
   font-size: 45px;
   font-weight: 500;
-  left: 773px;
+  left: 30%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 0;
   white-space: nowrap;
-  width: 262px;
+  /*width: 262px;*/
 }
 
 .frame .avatar {
   height: 40px;
-  left: 1768px;
+  left: 92%;
   object-fit: cover;
   position: absolute;
   top: 6px;
@@ -118,9 +121,11 @@
   gap: 28px;
   height: 1080px;
   margin-right: -10.00px;
-  padding: 251px 541px;
+  /*padding: 251px 541px;*/
   position: relative;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
+  justify-content: center;
 }
 
 .frame .div-2 {
@@ -158,7 +163,7 @@
 
 .frame .text-wrapper-2 {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular", Helvetica;
+  font-family: "Press Start 2P";
   font-size: 64px;
   font-weight: 400;
   left: 4px;
@@ -171,7 +176,7 @@
 
 .frame .THIS-IS-YOUR-SOUS {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular", Helvetica;
+  font-family: "Press Start 2P";
   font-size: 36px;
   font-weight: 400;
   left: 0;
@@ -184,7 +189,7 @@
 
 .frame .p {
   color: #ffffff;
-  font-family: "Press Start 2P-Regular", Helvetica;
+  font-family: "Press Start 2P";
   font-size: 36px;
   font-weight: 400;
   left: 0;
@@ -224,7 +229,7 @@
 
 .frame .text-wrapper-3 {
   color: #5e5e5e;
-  font-family: "Press Start 2P-Regular", Helvetica;
+  font-family: "Press Start 2P";
   font-size: 48px;
   font-weight: 400;
   left: 148px;
