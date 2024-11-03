@@ -1,0 +1,268 @@
+.frame {
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* height: calc(100vh - 80px); */
+}
+
+.frame .overlap-wrapper {
+    background-color: #ffffff;
+    height: 900px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* .frame .overlap {
+    background-image: url('/images/BG.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 920px;
+    left: -10px;
+    position: relative;
+    top: -10px;
+    width: 1620px;
+} */
+
+.frame .mid-sec {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 117px;
+    left: 120px;
+    position: absolute;
+    top: 281px;
+    width: 1337px;
+}
+
+.frame .text-wrapper {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 52px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000db;
+}
+
+.frame .div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 228px;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0px 130px;
+    position: relative;
+    width: 1249px;
+}
+
+.frame .group {
+    height: 80px;
+    margin-left: -89.00px;
+    margin-right: -95.00px;
+    position: relative;
+    width: 1173px;
+}
+
+.frame .overlap-group {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 422px;
+}
+
+.frame .text-wrapper-2 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.frame .div-wrapper {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 448px;
+    position: absolute;
+    top: 0;
+    width: 452px;
+}
+
+.frame .text-wrapper-3 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.frame .overlap-group-2 {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 932px;
+    position: absolute;
+    top: 0;
+    width: 235px;
+}
+
+.frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.frame .group-2 {
+    height: 80px;
+    margin-left: -129.50px;
+    margin-right: -137.50px;
+    position: relative;
+    width: 1256px;
+}
+
+.frame .overlap-2 {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 276px;
+}
+
+.frame .text-wrapper-5 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.frame .overlap-3 {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 306px;
+    position: absolute;
+    top: 0;
+    width: 450px;
+}
+
+.frame .text-wrapper-6 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.frame .overlap-4 {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 785px;
+    position: absolute;
+    top: 0;
+    width: 231px;
+}
+
+.frame .text-wrapper-7 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.frame .overlap-5 {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 80px;
+    left: 1045px;
+    position: absolute;
+    top: 0;
+    width: 203px;
+}
+
+.frame .text-wrapper-8 {
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 36px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.frame .arrows {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 10px;
+    right: 10px;
+    padding: 70px, 70px;
+    position: relative;
+    top: 476px;
+    width: 100%;
+}
+
+.frame .arrow-l,
+.frame .arrow {
+    flex: 1;
+    height: auto;
+    max-width: 100px;
+    object-fit: cover;
+    position: relative;
+}
