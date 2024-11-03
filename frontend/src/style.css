@@ -16,8 +16,9 @@
 }
 
 .frame .group {
-  background-image: url(./rectangle-5.svg);
-  background-size: 100% 100%;
+  background-image: url(./rectangle-5.png);
+  background-position: 50% 50%;
+  background-size: cover;
   height: 1080px;
   position: relative;
 }
@@ -49,7 +50,7 @@
   left: 56px;
   position: relative;
   top: 27px;
-  width: 1794px;
+  width: 1810px;
 }
 
 .frame .group-3 {
@@ -101,12 +102,13 @@
   width: 262px;
 }
 
-.frame .generic-avatar {
-  height: 40px !important;
-  left: 1752px !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 40px !important;
+.frame .avatar {
+  height: 40px;
+  left: 1768px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 40px;
 }
 
 .frame .frame-wrapper {
@@ -194,6 +196,9 @@
 }
 
 .frame .chef {
+  background-image: url(./chef.png);
+  background-position: 50% 50%;
+  background-size: cover;
   height: 495px;
   left: 0;
   position: absolute;
@@ -232,9 +237,10 @@
 }
 
 .frame .arrow {
-  height: 59px;
-  left: 737px;
+  height: 67px;
+  left: 732px;
+  object-fit: cover;
   position: absolute;
   top: 8px;
-  width: 72px;
+  width: 80px;
 }
