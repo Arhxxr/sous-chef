@@ -266,3 +266,24 @@
     object-fit: cover;
     position: relative;
 }
+
+/* DietaryPref.css */
+.selected {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.7);
+    background-color: white;
+    color: black;
+}
+
+.overlap-group, .div-wrapper, .overlap-group-2, .overlap-2, .overlap-3, .overlap-4, .overlap-5 {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: black;
+    color: white;
+}
+
+.overlap-group:hover, .div-wrapper:hover, .overlap-group-2:hover, .overlap-2:hover, .overlap-3:hover, .overlap-4:hover, .overlap-5:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.5);
+}

@@ -19,7 +19,7 @@ const GlobalNavbar = () => {
                         <NavDropdown.Item href="/DietProfiles">DietProfiles</NavDropdown.Item>
                         <NavDropdown.Item href="/recipes">Recipes</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
+                        <NavDropdown.Item href="/preferences">Preferences</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
 

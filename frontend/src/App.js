@@ -7,6 +7,7 @@ import HomeScreen from "./components/HomeScreen";
 // import avatar from "frontend\public\avatar.png";
 import TextInputPage from './components/TextInputPage';
 import DietaryPref from "./components/DietaryPref";
+import Preferences from  "./components/Preferences"
 import "./style.css";
 
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/home" element= {<HomeScreen/>} />
           <Route path="/recipes" element={<TextInputPage />} />
           <Route path="/dietprofiles" element={<DietaryPref/>} />
+          <Route path="/preferences" element={<Preferences/>} />
         </Routes>
       </Router>
     );
