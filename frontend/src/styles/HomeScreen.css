@@ -1,0 +1,13 @@
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #000;
+    text-shadow: 2px 2px #f4d03f;
+  }
+  
