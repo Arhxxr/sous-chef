@@ -1,223 +1,60 @@
-.frame {
-  align-items: flex-start;
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/Minecraft.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('./assets/fonts/PressStart2P.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.landing {
+  background-color: transparent;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 10px;
-  position: relative;
-}
-
-.frame .group-wrapper {
-  height: 1080px;
-  left: 10px;
-  position: absolute;
-  top: 10px;
-  width: 100%; /* Set width to 100% */
-  max-width: 1920px; /* Optional max width for larger screens */
-}
-
-
-.frame .group {
-  background-image: url(./rectangle-5.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 1080px;
-  position: relative;
-}
-
-.frame .rectangle {
-  background-color: #1e1e1e;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 930px;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
 }
 
-.frame .div-wrapper {
-  height: 94px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.frame .div {
-  background-color: #3e2509;
-  height: 94px;
-}
-
-.frame .group-2 {
-  display: flex;
-  height: 53px;
-  left: 56px;
+.landing .div {
+  height: 1080px;
   position: relative;
-  top: 27px;
-  width: 94%;
+  width: 1920px;
 }
 
-.frame .group-3 {
-  height: 40px;
+.landing .BG {
+  height: 1080px;
   left: 0;
-  position: absolute;
-  top: 0;
-  width: 40px;
-}
-
-.frame .rectangle-2 {
-  background-color: #d9d9d9;
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 40px;
-}
-
-.frame .rectangle-3 {
-  background-color: #d9d9d9;
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 18px;
-  width: 40px;
-}
-
-.frame .rectangle-4 {
-  background-color: #d9d9d9;
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 36px;
-  width: 40px;
-}
-
-.frame .text-wrapper {
-  color: #ffffff;
-  font-family: "Press Start 2P";
-  font-size: 45px;
-  font-weight: 500;
-  left: 30%;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-  /*width: 262px;*/
-}
-
-.frame .avatar {
-  height: 40px;
-  left: 92%;
   object-fit: cover;
   position: absolute;
-  top: 6px;
-  width: 40px;
+  top: 0;
+  width: 1920px;
 }
 
-.frame .frame-wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  height: 1080px;
-  margin-right: -10.00px;
-  /*padding: 251px 541px;*/
-  position: relative;
-  width: 100%;
-  max-width: 1920px;
-  justify-content: center;
-}
-
-.frame .div-2 {
+.landing .frame {
   align-items: center;
   display: inline-flex;
-  flex: 0 0 auto;
   flex-direction: column;
+  height: 699px;
   justify-content: center;
-  margin-left: -5.00px;
-  margin-right: -5.00px;
-  position: relative;
-}
-
-.frame .group-4 {
-  height: 495px;
-  position: relative;
-  width: 848px;
-}
-
-.frame .group-5 {
-  height: 365px;
-  left: 360px;
+  left: 536px;
   position: absolute;
-  top: 15px;
-  width: 494px;
+  top: 119px;
 }
 
-.frame .overlap-group {
-  height: 220px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 488px;
-}
-
-.frame .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Press Start 2P";
-  font-size: 64px;
-  font-weight: 400;
-  left: 4px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 484px;
-}
-
-.frame .THIS-IS-YOUR-SOUS {
-  color: #ffffff;
-  font-family: "Press Start 2P";
-  font-size: 36px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 52px;
-  position: absolute;
-  top: 116px;
-  width: 484px;
-}
-
-.frame .p {
-  color: #ffffff;
-  font-family: "Press Start 2P";
-  font-size: 36px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 52px;
-  position: absolute;
-  top: 261px;
-  width: 484px;
-}
-
-.frame .chef {
-  background-image: url(./chef.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 495px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 287px;
-}
-
-.frame .div-3 {
+.landing .frame-2 {
   height: 74px;
-  position: relative;
-  width: 813px;
+  left: 4px;
+  position: absolute;
+  top: 625px;
+  width: 841px;
 }
 
-.frame .overlap {
+.landing .overlap-group {
   background-color: #d9d9d9;
   border-radius: 72px;
   height: 73px;
@@ -227,9 +64,9 @@
   width: 489px;
 }
 
-.frame .text-wrapper-3 {
+.landing .text-wrapper {
   color: #5e5e5e;
-  font-family: "Press Start 2P";
+  font-family: 'Press Start 2P';
   font-size: 48px;
   font-weight: 400;
   left: 148px;
@@ -241,11 +78,164 @@
   white-space: nowrap;
 }
 
-.frame .arrow {
+.landing .arrow {
   height: 67px;
   left: 732px;
   object-fit: cover;
   position: absolute;
   top: 8px;
   width: 80px;
+}
+
+.landing .frame-3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 848px;
+}
+
+.landing .chef {
+  height: 495px;
+  object-fit: cover;
+  position: relative;
+  width: 287px;
+}
+
+.landing .group {
+  height: 365px;
+  margin-right: -6.00px;
+  position: relative;
+  width: 494px;
+}
+
+.landing .overlap-group-2 {
+  height: 220px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 488px;
+}
+
+.landing .text-wrapper-2 {
+  color: #ffffff;
+  font-family: 'Press Start 2P';
+  font-size: 64px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 484px;
+}
+
+.landing .THIS-IS-YOUR-SOUS {
+  color: #ffffff;
+  font-family: 'Press Start 2P';
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: absolute;
+  top: 116px;
+  width: 484px;
+}
+
+.landing .p {
+  color: #ffffff;
+  font-family: 'Press Start 2P';
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: absolute;
+  top: 261px;
+  width: 484px;
+}
+
+.landing .group-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.landing .div-wrapper {
+  background-color: #3e2509;
+  height: 94px;
+  position: relative;
+  width: 1920px;
+}
+
+.landing .group-2 {
+  height: 53px;
+  left: 56px;
+  position: relative;
+  top: 27px;
+  width: 1810px;
+}
+
+.landing .group-3 {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.landing .rectangle {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.landing .rectangle-2 {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 40px;
+}
+
+.landing .rectangle-3 {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 40px;
+}
+
+.landing .text-wrapper-3 {
+  color: #ffffff;
+  font-family: 'Minecraft';
+  font-size: 45px;
+  font-weight: 500;
+  left: 773px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.landing .avatar {
+  height: 40px;
+  left: 1768px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 40px;
 }

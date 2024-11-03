@@ -1,60 +1,58 @@
 import React from "react";
-// import arrow from "frontend\public\arrow.png";
-// import avatar from "frontend\public\avatar.png";
+import BG from "./assets/images/BG.png";
+import arrow from "./assets/images/arrow.png";
+import avatar from "./assets/images/avatar.png";
+import chef from "./assets/images/chef.png";
 import "./style.css";
 
-export const Frame = () => {
+export const Landing = () => {
   return (
-    <div className="frame">
-      <div className="group-wrapper">
-        <div className="group">
-          <div className="rectangle" />
+    <div className="landing">
+      <div className="div">
+        <img className="BG" alt="Bg" src={BG} />
 
-          <div className="div-wrapper">
-            <div className="div">
-              <div className="group-2">
-                <div className="group-3">
-                  <div className="rectangle-2" />
-
-                  <div className="rectangle-3" />
-
-                  <div className="rectangle-4" />
-                </div>
-
-                <div className="text-wrapper">SOUS CHEF</div>
-
-                <img className="avatar" alt="Avatar" src="frontend\public\avatar.png" />
-              </div>
+        <div className="frame">
+          <div className="frame-2">
+            <div className="overlap-group">
+              <div className="text-wrapper">NAME</div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="frame-wrapper">
-        <div className="div-2">
-          <div className="group-4">
-            <div className="group-5">
-              <div className="overlap-group">
+            <img className="arrow" alt="Arrow" src={arrow} />
+          </div>
+
+          <div className="frame-3">
+            <img className="chef" alt="Chef" src={chef} />
+
+            <div className="group">
+              <div className="overlap-group-2">
                 <div className="text-wrapper-2">HI!</div>
 
                 <p className="THIS-IS-YOUR-SOUS">
-                  I AM YOUR <br />
+                  THIS IS YOUR <br />
                   SOUS CHEF
                 </p>
               </div>
 
               <p className="p">HOW SHOULD I ADDRESS YOU?</p>
             </div>
-
-            <div className="chef" />
           </div>
+        </div>
 
-          <div className="div-3">
-            <div className="overlap">
-              <div className="text-wrapper-3">NAME</div>
+        <div className="group-wrapper">
+          <div className="div-wrapper">
+            <div className="group-2">
+              <div className="group-3">
+                <div className="rectangle" />
+
+                <div className="rectangle-2" />
+
+                <div className="rectangle-3" />
+              </div>
+
+              <div className="text-wrapper-3">SOUS CHEF</div>
+
+              <img className="avatar" alt="Avatar" src={avatar} />
             </div>
-
-            <img className="arrow" alt="Arrow" src="frontend\public\arrow.png" />
           </div>
         </div>
       </div>
