@@ -1,0 +1,57 @@
+.text-input-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6DBD45;
+    width: 100%;
+    height: calc(100vh - 80px);
+  }
+  
+  .text-input-page h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: "Press Start 2P";
+    top: 45%;
+    position: relative;
+  }
+  
+  .text-input {
+    top: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: "Press Start 2P";
+    width: 60%;
+    margin-bottom: 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  /*.text-input:focus {
+    outline: none;
+    border-color: #36a2eb;
+  }*/
+  
+  .arcade-button {
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px #cc0000;
+    transition: all 0.1s ease;
+    top: 50%;
+    position: relative;
+  }
+  
+  .arcade-button:hover {
+    background-color: #ff6161;
+  }
+  
+  .arcade-button:active {
+    box-shadow: 0 2px #cc0000;
+    transform: translateY(2px);
+  }
+  

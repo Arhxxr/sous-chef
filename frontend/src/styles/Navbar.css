@@ -1,0 +1,40 @@
+/* src/styles/Navbar.css */
+
+.custom-navbar {
+    background-color: #24422d;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; /* Optional padding to keep icons away from edges */
+    position: relative; /* Helps with absolute centering */
+  }
+  
+  .navbar-left {
+    flex: 1; /* Take available space on the left */
+  }
+  
+  .navbar-right {
+    flex: 1; /* Take available space on the right */
+    text-align: right;
+  }
+  
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px !important;
+    color: white !important;
+    text-shadow: 2px 2px #f4d03f
+  }
+
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  

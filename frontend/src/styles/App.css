@@ -1,11 +1,247 @@
+.frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
 
-body {
-  background-color: #1b1b1b;
-  color: #00ff00;
+.frame .group-wrapper {
+  height: 1080px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 1920px;
+}
+
+.frame .group {
+  background-image: url(./rectangle-5.svg);
+  background-size: 100% 100%;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .rectangle {
+  background-color: #1e1e1e;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 930px;
+  width: 1920px;
+}
+
+.frame .div-wrapper {
+  height: 94px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.frame .div {
+  background-color: #3e2509;
+  height: 94px;
+}
+
+.frame .group-2 {
+  height: 53px;
+  left: 56px;
+  position: relative;
+  top: 27px;
+  width: 1794px;
+}
+
+.frame .group-3 {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.frame .rectangle-2 {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.frame .rectangle-3 {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 40px;
+}
+
+.frame .rectangle-4 {
+  background-color: #d9d9d9;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 40px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Minecraft-Medium", Helvetica;
+  font-size: 45px;
+  font-weight: 500;
+  left: 773px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.frame .generic-avatar {
+  height: 40px !important;
+  left: 1752px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 40px !important;
+}
+
+.frame .frame-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 1080px;
+  margin-right: -10.00px;
+  padding: 251px 541px;
+  position: relative;
+  width: 1920px;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -5.00px;
+  margin-right: -5.00px;
+  position: relative;
+}
+
+.frame .group-4 {
+  height: 495px;
+  position: relative;
+  width: 848px;
+}
+
+.frame .group-5 {
+  height: 365px;
+  left: 360px;
+  position: absolute;
+  top: 15px;
+  width: 494px;
+}
+
+.frame .overlap-group {
+  height: 220px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 488px;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
   font-family: "Press Start 2P", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 484px;
 }
 
-.App {
-  text-align: center;
-  padding: 2rem;
+.frame .THIS-IS-YOUR-SOUS {
+  color: #ffffff;
+  font-family: "Press Start 2P", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: absolute;
+  top: 116px;
+  width: 484px;
 }
+
+.frame .p {
+  color: #ffffff;
+  font-family: "Press Start 2P", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: absolute;
+  top: 261px;
+  width: 484px;
+}
+
+.frame .chef {
+  height: 495px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 287px;
+}
+
+.frame .div-3 {
+  height: 74px;
+  position: relative;
+  width: 813px;
+}
+
+.frame .overlap {
+  background-color: #d9d9d9;
+  border-radius: 72px;
+  height: 73px;
+  left: 232px;
+  position: absolute;
+  top: 0;
+  width: 489px;
+}
+
+.frame .text-wrapper-3 {
+  color: #5e5e5e;
+  font-family: "Press Start 2P", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.frame .arrow {
+  height: 59px;
+  left: 737px;
+  position: absolute;
+  top: 8px;
+  width: 72px;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

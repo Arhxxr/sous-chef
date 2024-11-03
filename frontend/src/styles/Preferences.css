@@ -1,0 +1,67 @@
+.pref-cards {
+    height: 450px;
+    width: 18rem;
+}
+
+.cards-row {
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.card-header {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    padding-bottom: 0x;
+    height: 100px;
+}
+
+.card-header h5 {
+    justify-content: center; /* Aligns content horizontally in the center */
+    align-items: center; 
+    text-align: center;
+    padding-top: 35px;
+}
+
+.card-body {
+    background-color: #a0d468; /* Green color */
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 40px;
+}
+
+.list-options {
+    background-color: #a0d468 !important; 
+}
+
+.list-options-2 {
+    background-color: #a0d468 !important; 
+}
+
+
+.list-options .list-group-item.active {
+    background-color: #000000 !important; 
+}
+
+.list-options-2 .list-group-item-2.active {
+    background-color: #000000 !important; 
+}
+
+.meal-card {
+    background-color: #000000;
+}
+

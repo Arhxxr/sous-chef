@@ -1,0 +1,42 @@
+.info-row {
+    text-align: center;
+    max-width: 800px;
+}
+.text-col h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 64px;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+.text-col p {
+    font-family: 'Press Start 2p', cursive;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+}
+.input-row {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-row .input-col {
+    background-color: #d9d9d9;
+    border-radius: 36px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure spacing between elements inside the input */
+    width: 489px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input-row .name-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
