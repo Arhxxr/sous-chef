@@ -6,21 +6,26 @@ services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: dockerfile  # Use Dockerfile for development
+      dockerfile: dockerfile.prod  # Use Dockerfile for development
     volumes:
       - ./frontend:/app
       - /app/node_modules
+      - /etc/letsencrypt/live/sous-chef.tech:/etc/letsencrypt/live/sous-chef.tech:ro
+      - /etc/letsencrypt/archive/sous-chef.tech:/etc/letsencrypt/archive/sous-chef.tech:ro
     ports:
-      - "3000:3000"
+      - "80:80"
+      - "443:443"  # SSL port
+    # environment:
+    #   - CHOKIDAR_USEPOLLING=true  # For file watching on some environments
     environment:
-      - CHOKIDAR_USEPOLLING=true  # For file watching on some environments
+      - REACT_APP_API_URL=http://sous-chef.tech/api
     depends_on:
       - backend
 
   backend:
     build:
       context: ./backend
-      dockerfile: dockerfile  # Use development Dockerfile
+      dockerfile: dockerfile.prod  # Use development Dockerfile
     volumes:
       - ./backend:/app
       - /app/venv
